@@ -1,0 +1,82 @@
+// Fonts
+// -------------------------
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-family-handwritten: "Satisfy", cursive;
+$font-size-base: 1.125rem;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$line-height-base: 1.5;
+
+// Colors
+// -------------------------
+// global colors
+$brown: #594838;
+$cream: #e2d9cf;
+$green: #14401f;
+$red: #8c3623;
+$blue: #0984e3;
+$mint: #00b894;
+$apple: #6ab04c;
+$turquoise: #00cec9;
+$orange: #e17055;
+$yellow: #fdcb6e;
+$pink: #e84393;
+$purple: #3b2559;
+$patrol: #265d73;
+
+$light: #f7f7f7;
+$dark: #060d0b;
+
+$ballerina: #c8d6e5;
+$imperial: #222f3e;
+
+$primary: $purple;
+$secondary: $patrol;
+$danger: $red;
+$warning: $yellow;
+$success: $apple;
+$info: $blue;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "brown": $brown,
+  "warning": $warning,
+  "danger": $danger,
+  "sugar": $pink,
+  "purple": $purple,
+  "light": $light,
+  "dark": $dark,
+);
+
+$spacer: 1rem;
+$border-width: $spacer * 0.125;
+
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 9,
+  8: $spacer * 12,
+  9: $spacer * 15,
+  10: $spacer * 18,
+);
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 360px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1536px,
+);
+
+$box-shadow: 0 0.5rem 1rem rgba($dark, 0.175);
+
